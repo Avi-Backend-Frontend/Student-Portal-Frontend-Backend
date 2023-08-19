@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../readtime.jpg);
+  height: 100vh;
+  background-size: center;
+  background-position: center;
+}
+
+.wrapper h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: #f9f9f9;
+}
+
+.wrapper h1:hover {
+  color: cyan;
+}
+
+.wrapper .form-container h2 {
+  background-color: darkgray;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wrapper .form-container h2:hover {
+  background-color: black;
+  color: white;
+}
+
+.wrapper .main {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrapper .form-container {
+  width: 400px;
+  height: 545px;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.wrapper .form-container .btn {
+  width: 100%;
+}
+
+.wrapper .form-container .btn-btn-success-btn-md {
+  background-color: rgb(14, 155, 75);
+  width: 400px;
+  height: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.wrapper .form-container .form-control-name {
+  width: 195px;
+  height: 19px;
+  margin: 3px auto;
+  padding: 0px;
+}
+
+.wrapper .form-container .data {
+  width: 393px;
+  height: 19px;
+  margin: 3px auto;
+  padding: 0px;
+}
+
+.wrapper .form-container .astriccolor {
+  color: red;
+}
+
+.wrapper .view-container {
+  width: 860px;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background-color: rgb(18, 20, 20);
+}
+
+tbody {
+  margin-top: 25px;
+}
+
+.wrapper .view-container .btn-btn-danger-btn-md {
+  background-color: red;
+  font-weight: bold;
+}
+
+.wrapper .view-container .data-arrangement {
+  width: 600px;
+  height: 9px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: darkgray;
+}
+
+.view-data {
+  background-color: white;
+}
+
+.wrapper .view-container h4 {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(135, 130, 130);
+}
+
+.wrapper .view-container h4:hover {
+  background-color: black;
+  color: rgb(189, 246, 19);
+}
